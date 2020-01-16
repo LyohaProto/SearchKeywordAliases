@@ -1,0 +1,17 @@
+{
+  "name": "SearchKeywordAliases",
+  "version": "0.0.1",
+  "description": "Chrome plugin for defining custom aliases for Google search (e.x. python -> Python3)",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.google.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
